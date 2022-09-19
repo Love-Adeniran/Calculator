@@ -1,0 +1,21 @@
+main{
+    margin: 10% auto;
+    /* background-color: #4203fd; */
+    /* width: 20%; */
+}
+
+table{
+    border: 5px solid #fff;
+    border-radius: 20px;
+    background-color: #270b54;
+    margin: auto;
+    padding: 2%;
+}
+.sign{
+    background-color: rgba(255, 192, 203, 0.7);
+    color: #fdfd03;
+    font-size: 16px;
+}
+/* #disp{
+    background-color: #fff;
+} */
