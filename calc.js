@@ -8,7 +8,7 @@ const displayToScreen=(e)=>{
  
 const equalTo=()=>{
    console.log(eval(disp.value))
-   answer = "="+ eval(disp.value)
+//    answer = "="+ eval(disp.value)
    disp.value += answer;
    rem.push(disp.value)
 }
