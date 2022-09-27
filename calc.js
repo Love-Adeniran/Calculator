@@ -1,5 +1,5 @@
 
-
+// all numbers buttons that displays to screen
 disp.value =""
 rem =[]
 const displayToScreen=(e)=>{
@@ -7,9 +7,8 @@ const displayToScreen=(e)=>{
     rem.push(disp.value)
 }
 
- 
+//  the Equal button
 const equalTo=()=>{
-//    console.log(eval(disp.value))
    answer = "="+ eval(disp.value)
    disp.value += answer;
    rem.push(disp.value)
