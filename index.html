@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="calc.css">
-    <title>Calculator</title>                   
+    <title>Calculator</title>                 
     <style>
         @font-face {
         font-family: 'SegmentLED';
@@ -73,8 +73,10 @@
                 </td>
             </tr> 
             <tr>
-                <td><button onclick="clear()" class="sign">AC</button></td>
-                <td><button ondblclick="deleteBtn()" class="sign">del</button></td>
+                <td>
+                    <button onclick="erase()" class="sign">AC</button>
+                </td>
+                <td><button onclick="deleteBtn()" class="sign">del</button></td>
                 <td><button onclick="displayToScreen('%')" class="sign
                     ">%</button></td>
                 <td><button onclick="displayToScreen('/')" class="sign slash">/</button></td>
