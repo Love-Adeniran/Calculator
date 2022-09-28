@@ -18,15 +18,18 @@
                 </td>
             </tr>
             <tr>
+                <td id="dispDate" colspan="4" align="center"></td>
+            </tr>
+            <tr>
                 <td colspan="4">
                     <input type="text" disabled id="disp"> 
                 </td>
             </tr> 
             <tr>
                 <td>
-                    <button onclick="erase()" class="sign">AC</button>
+                    <button onclick="erase()" class="sign clear">AC</button>
                 </td>
-                <td><button onclick="deleteBtn()" class="sign">del</button></td>
+                <td><button onclick="deleteBtn()" class="sign del">del</button></td>
                 <td><button onclick="displayToScreen('%')" class="sign
                     ">%</button></td>
                 <td><button onclick="displayToScreen('/')" class="sign slash">/</button></td>
@@ -52,7 +55,7 @@
             <tr>
                 <td colspan="2"><button onclick="displayToScreen(0)" class="zero">0</button></td>
                 <td><button onclick="displayToScreen('.')" class="sign">.</button></td>
-                <td><button onclick="equalTo()" class="sign">=</button></td>
+                <td><button onclick="equalTo()" class="sign equal">=</button></td>
             </tr>
         </table>
     </main>

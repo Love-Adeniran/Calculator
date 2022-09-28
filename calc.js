@@ -12,8 +12,6 @@ const equalTo=()=>{
 
 }
 
-
-
 // The delete button 
 const deleteBtn=()=>{
     if(disp.value===''){
@@ -27,8 +25,12 @@ const deleteBtn=()=>{
     }
 }
 
-
 // clear button
 const erase=()=>{
     disp.value = "";
 }
+
+setInterval(()=>{
+    let myDate = new Date()
+    dispDate.innerHTML = `${myDate.toLocaleTimeString()}  ${myDate.toLocaleDateString()}`
+},)
