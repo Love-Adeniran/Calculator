@@ -32,5 +32,5 @@ const erase=()=>{
 
 setInterval(()=>{
     let myDate = new Date()
-    dispDate.innerHTML = `${myDate.toLocaleTimeString()}  ${myDate.toLocaleDateString()}`
+    dispDate.innerHTML = `${myDate.toLocaleTimeString()}`
 },)
