@@ -51,10 +51,12 @@
         width: 80%;
         margin: auto;
         padding: 8%;
+        padding-top: 10%;
         border: none;
         outline: none;
         border-radius: 30px;
         box-shadow: 2px 20px 40px #acacac;
+        word-wrap: inherit;
 
     }
     .sign{
@@ -78,8 +80,8 @@
 
     
     td .zero{
-        width: 70%;
-        border-radius: 45%;
+        /* width: 70%; */
+        border-radius: 20%;
         background-color: #fcfcc4;
     }
    

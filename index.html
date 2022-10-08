@@ -56,12 +56,25 @@
                 <td><button onclick="displayToScreen('+')" class="sign">+</button></td>
             </tr>
             <tr>
-                <td colspan="2"><button onclick="displayToScreen(0)" class="zero">0</button></td>
+                <td><button onclick="displayToScreen(00)" class="zero">00</button></td>
+                <td><button onclick="displayToScreen(0)" class="zero">0</button></td>
                 <td><button onclick="displayToScreen('.')" class="sign">.</button></td>
                 <td><button onclick="equalTo()" class="sign equal">=</button></td>
             </tr>
         </table>
     </main>
+
+    <!-- <form name="calculator">
+        <input type="text" id="text" name="answer">
+        <input type="text" id="button1" value="1" onclick="calculator.answer.value+= '1' ">
+        <input type="text" id="button1" value="2" onclick="calculator.answer.value+= '2' ">
+        <input type="text" id="button1" value="3" onclick="calculator.answer.value+= '3' ">
+        <input type="text" id="button1" value="+" onclick="calculator.answer.value+= '+' ">
+        <input type="text" id="button1" value="=" onclick="calculator.answer.value+= '='+ eval(calculator.answer.value) ">
+        <input type="text" id="button1" value="c" onclick="calculator.answer.value= '' ">
+
+
+    </form> -->
     <script src="calc.js"></script>
 </body>
 </html>

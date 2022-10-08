@@ -7,8 +7,14 @@ const displayToScreen=(e)=>{
 
 //  the Equal button
 const equalTo=()=>{
-   answer = "="+ eval(disp.value)
-   disp.value += answer;
+    if(disp.value===''){
+        return;
+    }
+    else{
+        answer = eval(disp.value)
+        disp.value = answer;
+    }
+  
 
 }
 
