@@ -11,84 +11,65 @@
                  url(digital-clock-font/DS-DIGIT.TTF);
 }
 
-    body{
-        /* font-family: 'SegmentLED','DS'; */
-        font-size: 24px;
-    }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-    main{
-        margin: auto;
-    }
+.container{
+    /* border: 2px solid blue; */
+    width: 20vw;
+    margin: auto;
+    margin-top: 70px;
+    padding: 10px 2px;
+    border-radius: 5px 40px;
+    background-color: black;
+    box-shadow: 3px 3px 15px blue; 
+}
 
-    table{
-        border: 5px solid #fff;
-        border-radius: 40px;
-        background-color: #fff;
-        margin: 20px auto;
-        padding: 2%;
-        box-shadow: 2px 20px 40px 10px #acacac;
-    }
-    #dispDate{
-        padding: 5px;
-        margin: 0;
-        color: #fff;
-        background-color: #008000;
-        border-radius: 10px;
-        font-size: 16px;
-        /* width: vw; */
-        /* border: 2px solid black; */
-        font-family: 'SegmentLED','DS';
-    }
-    td h3{
-        color: green;
-        text-shadow: 2px 20px 40px #acacac;
-    }
-    td input{
-        font-family: 'SegmentLED','DS';
-        font-size: 24px;
-        font-weight: 800;
-        color: #008000;
-        width: 80%;
-        margin: auto;
-        padding: 8%;
-        padding-top: 10%;
-        border: none;
-        outline: none;
-        border-radius: 30px;
-        box-shadow: 2px 20px 40px #acacac;
-        word-wrap: inherit;
+.sign{
+    /* border: 2px solid brown; */
+    display: flex;
+    margin: 10px 0;
+    padding: 5px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.sign h3{
+    color: aqua;
+}
 
-    }
-    .sign{
-        color: green;
-        font-size: 16px;
-        box-shadow: 2px 10px 10px #acacac;
+.sign .zero{
+    /* padding: 10px ; */
+    width: 90px;
+}
+.sign div {
+    color:aqua;
+    /* background-color: red; */
+    width: 35px;
+    padding: 5px;
+    /* height: 30px; */
+    border-radius: 25%;
+    text-align: center;
+    cursor: pointer;
+    border: 2px solid rebeccapurple;
+    box-shadow: 3px 3px 10px blue;
+    /* transition: 10s; */
+}
+.sign div:hover {
+    transition: 1s;
+    transform: scale(1.01);
+    /* background-color: red; */
+}
 
-    }
-
-    button{
-        /* font-family: 'SegmentLED','DS'; */
-        font-size: 24px;
-        padding: 20px;
-        border-radius: 40%;
-        border: none;
-        background-color: #f0f8ff;
-        box-shadow: 2px 10px 10px #acacac;
-        color: green;
-        cursor: pointer;
-    }
-
-    
-    td .zero{
-        /* width: 70%; */
-        border-radius: 20%;
-        background-color: #fcfcc4;
-    }
-   
-    td .slash{
-        padding: 22px;
-    }
-    .del,.clear,.equal{
-        background-color: #008000;
-        color: #fff;
-    }
+#dispDate {
+    /* text-align: end; */
+    font-family: 'DS';
+    color: aqua;
+}
+#disp {
+    padding: 10px;
+    border-radius: 0 20px;
+    color: aqua;
+}

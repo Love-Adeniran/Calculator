@@ -9,72 +9,45 @@
 
 </head>
 <body>
-    <main>
+    
         
-        <table>
-            <tr>
-                <td colspan="4" align="right">
-                <small id="dispDate"></small>
-                </td>
-            </tr>
-            <tr>
-                <td colspan="4" align="center">
-                    <h3>Simple Calculator</h3>
-                </td>
-            </tr>
-            
-            <tr>
-                <td colspan="4">
-                    <input type="text" disabled id="disp"> 
-                </td>
-            </tr> 
-            <tr>
-                <td>
-                    <button onclick="erase()" class="sign clear">AC</button>
-                </td>
-                <td><button onclick="deleteBtn()" class="sign del">del</button></td>
-                <td><button onclick="displayToScreen('%')" class="sign
-                    ">%</button></td>
-                <td><button onclick="displayToScreen('/')" class="sign slash">/</button></td>
-            </tr>
-            <tr>
-                <td><button onclick="displayToScreen(7)">7</button></td>
-                <td><button onclick="displayToScreen(8)">8</button></td>
-                <td><button onclick="displayToScreen(9)">9</button></td>
-                <td><button onclick="displayToScreen('*')" class="sign" id="mult">x</button></td>
-            </tr>
-            <tr>
-                <td><button onclick="displayToScreen(4)">4</button></td>
-                <td><button onclick="displayToScreen(5)">5</button></td>
-                <td><button onclick="displayToScreen(6)">6</button></td>
-                <td><button onclick="displayToScreen('-')" class="sign">-</button></td>
-            </tr>
-            <tr>
-                <td><button onclick="displayToScreen(1)">1</button></td>
-                <td><button onclick="displayToScreen(2)">2</button></td>
-                <td><button onclick="displayToScreen(3)">3</button></td>
-                <td><button onclick="displayToScreen('+')" class="sign">+</button></td>
-            </tr>
-            <tr>
-                <td><button onclick="displayToScreen(00)" class="zero">00</button></td>
-                <td><button onclick="displayToScreen(0)" class="zero">0</button></td>
-                <td><button onclick="displayToScreen('.')" class="sign">.</button></td>
-                <td><button onclick="equalTo()" class="sign equal">=</button></td>
-            </tr>
-        </table>
-    </main>
-
-    <!-- <form name="calculator">
-        <input type="text" id="text" name="answer">
-        <input type="text" id="button1" value="1" onclick="calculator.answer.value+= '1' ">
-        <input type="text" id="button1" value="2" onclick="calculator.answer.value+= '2' ">
-        <input type="text" id="button1" value="3" onclick="calculator.answer.value+= '3' ">
-        <input type="text" id="button1" value="+" onclick="calculator.answer.value+= '+' ">
-        <input type="text" id="button1" value="=" onclick="calculator.answer.value+= '='+ eval(calculator.answer.value) ">
-        <input type="text" id="button1" value="c" onclick="calculator.answer.value= '' ">
-
-
-    </form> -->
+        <div class="container">
+            <div id="dispDate"></div>
+            <div class="sign"><h3>Simple Calculator</h3></div>
+            <div class="sign">
+                <input type="text" disabled id="disp">
+            </div> 
+            <div class="sign">
+                <div onclick="erase()" class=" clear">AC</div>
+                <div onclick="deleteBtn()" class=" del">del</div>
+                <div onclick="displayToScreen('%')" class="">%</div>
+                <div onclick="displayToScreen('/')" class=" slash">/</div>
+            </div>
+            <div class="sign">
+                <div onclick="displayToScreen(7)">7</div>
+                <div onclick="displayToScreen(8)">8</div>
+                <div onclick="displayToScreen(9)">9</div>
+                <div onclick="displayToScreen('*')" class="" id="mult">x</div>
+            </div>
+            <div class="sign">
+                <div onclick="displayToScreen(4)">4</div>
+                <div onclick="displayToScreen(5)">5</div>
+                <div onclick="displayToScreen(6)">6</div>
+                <div onclick="displayToScreen('-')" class="">-</div>
+            </div>
+            <div class="sign">
+                <div onclick="displayToScreen(1)">1</div>
+                <div onclick="displayToScreen(2)">2</div>
+                <div onclick="displayToScreen(3)">3</div>
+                <div onclick="displayToScreen('+')" class="">+</div>
+            </div>
+            <div class="sign">
+                <div onclick="displayToScreen(0)" class="zero">0</div>
+                <div onclick="displayToScreen('.')" class="">.</div>
+                <div onclick="equalTo()" class=" equal">=</div>
+            </div>
+        </div>
+   
     <script src="calc.js"></script>
 </body>
 </html>

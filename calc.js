@@ -24,7 +24,6 @@ const deleteBtn=()=>{
         console.log('field is empty')
     }
     else{
-        
         disp.value= disp.value.slice(0,-1)
         // rem.splice(0,-1)
         // console.log(rem)
